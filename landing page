@@ -1,0 +1,124 @@
+HTML
+-------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="krishan.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>My First Web Page</h1>
+                <nav>
+                
+                        <a href="#home">Home</a>        |
+                        <a href="#about">About</a>      |
+                        <a href="#contact">Contact</a> 
+
+                </nav>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h2>Welcome to my first Landing Page</h2>
+                <b><p>I AM VERY HAPPY TO HERE YOU IN...</p></b>
+                <a href="#contact" class="btn">GET STARTED</a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <b>THANK YOU, VISIT AGAIN...</b>
+        </div>
+    </footer>
+</body>
+</html>
+------------
+CSS
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #77aaff 3px solid;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header h1 {
+    float: left;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+.hero {
+    background: cornflowerblue;
+    height: 400px;
+    color: #fff;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.hero h2 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 20px;
+}
+
+.btn {
+    display: inline-block;
+    color: #090909;
+    background: #77ff8e;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    background: #0fb300;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+    margin-top: 70px;
+}
+
